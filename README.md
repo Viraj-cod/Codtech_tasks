@@ -28,4 +28,5 @@ Handling floating-point numbers.
 Handling negative numbers.
 Trigonometric functions (if extending beyond a simple calculator).
 Memory functions (storing results for later use).
-Code Structure: Typically, such a calculator could be implemented in Python using functions or classes to encapsulate different operations and provide modularity.
+Code Structure: Typically, such a calculator![Uploading Screenshot 2024-06-24 230451.png…]()
+ could be implemented in Python using functions or classes to encapsulate different operations and provide modularity.

@@ -1,0 +1,39 @@
+def addition(a,b):
+    return a + b
+def substraction(a,b):
+    return a - b
+def multiplication(a,b):
+    return a * b
+def division(a,b):
+    return a/b
+
+while(True):
+    print("--------------Simple Calculator-------------------")
+    print("operation : \n1.addition\n2.substraction\n3.multiplication\n4.division\n5.Exit")
+    x = int(input("Enter your choice:"))
+    if x == 1:
+        i = int(input("enter the first number:"))
+        o = int(input("enter the second number:"))
+        e = addition(i,o)
+        print(f"The addition of two number is:{e}")
+    elif x == 2:
+        i = int(input("enter the first number:"))
+        o = int(input("enter the second number:"))
+        r = substraction(i,o)
+        print(f"The substraction of two number is:{r}")
+    elif x == 3:
+        i = int(input("enter the first number:"))
+        o = int(input("enter the second number:"))
+        u = multiplication(i,o)
+        print(f"The multiplication of two number is:{u}")
+    elif x == 4:
+        i = int(input("enter the first number:"))
+        o = int(input("enter the second number:"))
+        l = division(i,o)
+        print(f"The division of two number is :{l}")
+    elif x == 5:
+        print("Thank You!")
+        break
+    else:
+        print("Enter the valid input from the options")
+    
